@@ -1,7 +1,13 @@
 def print_board(board):
-    for row in board:
-        print(" | ".join(row))
-        print("-"*9)
+    print("\n")
+    print("  0   1   2")
+
+    for i,row in enumerate(board):
+        print(i," | ".join(row))
+        if i<2:
+            print(" ---+---+---")
+
+    print("\n")
 
 
 def check_winner(board,player):
