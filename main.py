@@ -14,7 +14,7 @@ draws=0
 print("=== AI Tic-Tac-Toe Game ===")
 print("You = X | AI = O")
 
-level=input("Choose difficulty Easy/Medium/Hard: ").lower()
+level=input("Choose difficulty Easy/Medium/Hard:").lower()
 
 while True:
 
@@ -71,6 +71,7 @@ while True:
         break
 
 
+    
     if is_draw(board):
         draws+=1
         print("Draw")

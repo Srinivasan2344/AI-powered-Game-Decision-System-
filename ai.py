@@ -69,4 +69,5 @@ def medium_move(board):
             return (i,j)
         board[i][j]=" "
 
+    
     return random.choice(available_moves(board))

@@ -41,4 +41,5 @@ def available_moves(board):
             if board[i][j]==" ":
                 moves.append((i,j))
 
+    
     return moves
